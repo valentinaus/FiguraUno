@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="593.0" prefWidth="674.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="figuritauno.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Canvas fx:id="canvas" height="493.0" layoutX="20.0" layoutY="20.0" width="632.0" />
+      <Button layoutX="246.0" layoutY="526.0" mnemonicParsing="false" onAction="#crearFigura" text="CREAR FIGURA" />
+      <Button layoutX="41.0" layoutY="526.0" mnemonicParsing="false" onAction="#AgregarFigura" text="AGREGAR FIGURA" />
+      <Button layoutX="416.0" layoutY="526.0" mnemonicParsing="false" onAction="#guardarXML" text="GUARDAR EN ARCHIVO XML" />
+    </children>
+</AnchorPane>
